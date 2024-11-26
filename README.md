@@ -1,5 +1,23 @@
 # Student template
 
+Unit tests and CI for the sample library provided by Tampere University's
+COMP.SE.200-2024-2025-1 (Software Testing) course.
+
+## Files tested
+
+- `filter.js`
+- `toNumber.js`
+- `chunk.js`
+- `toString.js`
+- `drop.js`
+- `get.js`
+- `isDate.js`
+- `map.js`
+- `at.js`
+- `eq.js`
+
+---
+
 ## Purpose of this repository
 
 This is a project template for students participating in Software Testing course
