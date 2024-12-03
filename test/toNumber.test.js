@@ -6,6 +6,10 @@ describe('Tests for toNumber.js', function() {
     expect(toNumber('123')).to.equal(123);
   });
 
+  it('should convert a negative integer given as a string', function() {
+    expect(toNumber('-123')).to.equal(-123);
+  });
+
   it('should ignore leading/trailing whitespace', function() {
     expect(toNumber(' 123 ')).to.equal(123);
   });
