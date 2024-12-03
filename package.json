@@ -6,14 +6,12 @@
   "type": "module",
   "scripts": {
     "test": "mocha",
-    "test-coverage": "nyc npm run test && nyc report -reporter=text-lcov"
+    "test-coverage": "c8 npm run test && c8 report --reporter=text-lcov"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "chai": "^5.1.2",
-    "istanbul": "^0.4.5",
-    "mocha": "^10.8.2",
-    "nyc": "^17.1.0"
+    "mocha": "^10.8.2"
   }
 }
