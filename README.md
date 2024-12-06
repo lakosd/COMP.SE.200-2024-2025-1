@@ -1,5 +1,7 @@
 # Software Testing assignment
 
+[![Coverage Status](https://coveralls.io/repos/github/lakosd/COMP.SE.200-2024-2025-1/badge.svg?branch=main)](https://coveralls.io/github/lakosd/COMP.SE.200-2024-2025-1?branch=main)
+
 Unit tests and CI for the sample library provided by Tampere University's
 COMP.SE.200-2024-2025-1 (Software Testing) course.
 
