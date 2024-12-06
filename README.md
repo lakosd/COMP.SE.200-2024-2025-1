@@ -1,4 +1,4 @@
-# Student template
+# Software Testing assignment
 
 Unit tests and CI for the sample library provided by Tampere University's
 COMP.SE.200-2024-2025-1 (Software Testing) course.
