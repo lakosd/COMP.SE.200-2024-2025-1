@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import at from "../src/at.js";
 
-describe("at", () => {
+describe("Tests for at.js", () => {
   describe("Basic Functionality", () => {
     it("should retrieve values based on single-level paths", () => {
       const object = { a: 1, b: 2, c: 3 };

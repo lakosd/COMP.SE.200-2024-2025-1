@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import eq from "../src/eq.js";
 
-describe("eq", () => {
+describe("Tests for eq.js", () => {
   describe("Basic Functionality", () => {
     it("should return true for primitive values that are strictly equal", () => {
       expect(eq(1, 1)).to.be.true;

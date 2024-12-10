@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import get from "../src/get.js";
 
-describe("get", () => {
+describe("Tests for get.js", () => {
   describe("Basic Functionality", () => {
     it("should retrieve a nested value with a string path", () => {
       const obj = { a: { b: { c: 3 } } };

@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import isDate from "../src/isDate.js";
 
-describe("isDate", () => {
+describe("Tests for isDate.js", () => {
   describe("Valid Date Objects", () => {
     it("should return true for current Date objects", () => {
       const now = new Date();

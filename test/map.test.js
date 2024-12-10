@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import map from "../src/map.js";
 
-describe("map", () => {
+describe("Tests for map.js", () => {
   describe("Basic Functionality", () => {
     it("should apply the iteratee to each element of the array", () => {
       const square = (n) => n * n;
