@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "mocha",
+    "test": "mocha --reporter mochawesome",
     "test-coverage": "c8 npm run test; c8 report --reporter=text-lcov > ./coverage/output.lcov"
   },
   "author": "",
@@ -13,6 +13,7 @@
   "devDependencies": {
     "c8": "^10.1.2",
     "chai": "^5.1.2",
-    "mocha": "^10.8.2"
+    "mocha": "^10.8.2",
+    "mochawesome": "^7.1.3"
   }
 }
